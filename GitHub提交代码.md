@@ -9,10 +9,12 @@
 8. git config user.name "用户名"
 
 ## 更新代码
-1. git add .
+1. git status   
+    查看修改了哪些文件
+1. git add -A
+    将新增修改的文件到缓存列表
 2. git commit -m "提交注释"
-3. git remote add origin https://github.com/juezhan/项目名.git
-4. git push -u origin master    // 提交到主分支
+3. git push -u origin master:master
+    提交到主分支
 5. git config user.email "注册邮箱"
 6. git config user.name "用户名"
-
